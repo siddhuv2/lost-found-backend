@@ -1,0 +1,27 @@
+# Maven target and build artifacts
+target/
+*.class
+*.jar
+*.war
+
+# Node and Vite
+node_modules/
+dist/
+.vite/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Uploaded files
+uploads/
+!uploads/.gitkeep
